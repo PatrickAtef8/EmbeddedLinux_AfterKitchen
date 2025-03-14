@@ -1,0 +1,19 @@
+[Unit]
+Description=My Qt Application
+After=weston.service
+Requires=weston.service
+
+[Service]
+Environment="XDG_RUNTIME_DIR=/run/user/1000"
+Environment="WAYLAND_DISPLAY=wayland-1"
+Environment="QT_QPA_PLATFORM=wayland"
+Environment="QT_PLUGIN_PATH=/usr/lib/plugins"
+ExecStartPre=/bin/sleep 10
+ExecStart=/usr/bin/qt-gpio-app
+Restart=always
+RestartSec=5
+User=weston
+Group=weston
+
+[Install]
+WantedBy=default.target
