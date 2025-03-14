@@ -177,7 +177,7 @@ Copy the content of `poky.conf` from `meta-poky/conf/distro/` to `mydistro.conf`
 DISTRO = "mydistro"
 DISTRO_NAME = "My Custom Distro"
 DISTRO_VERSION = "1.0"
-MAINTAINER = "Patrick Altouf <patrick@example.com>"
+MAINTAINER = "Patrick Atef <patrick@example.com>"
 
 DISTRO_FEATURES:append = " systemd pam"
 DISTRO_FEATURES_BACKFILL_CONSIDERED += "sysvinit"
