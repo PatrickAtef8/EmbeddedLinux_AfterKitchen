@@ -6,7 +6,7 @@
 - **Setting Up the Yocto Build System (Step-by-Step Guide)**  
 - **Creating and Configuring a Custom Meta Layer for a Qt Application**  
 - **Key Yocto Terminologies and Variable Explanations**  
-- **Overview of Custom Layer Files and Their Responsibilities (ElZatona)**  
+- **Overview of Custom Layer Files and Their Responsibilities (ElZatona)**  🫒
 
 ## Introduction to Yocto
 
@@ -351,10 +351,10 @@ Setting `User=weston` and `Group=weston` ensures **security and compatibility** 
 - Any exploit could affect the entire system.
 ---
 
-# Summary
+# Summary 🫒
 This guide provides a complete understanding of setting up a custom Yocto layer with Qt6 and systemd integration. Every configuration and variable has been explained in detail. Let me know if you need further clarifications!
 
-## Yocto Terminology FastRead Eraya kda morag3a kol 7aga bt3ml eh
+## Yocto Terminology FastRead Eraya kda morag3a kol 7aga bt3ml eh 🫒
 
 ### 1. **Yocto Project**
 A framework for creating custom Linux distributions for embedded systems. It provides tools, metadata, and workflows for cross-compilation and package management.
@@ -391,7 +391,7 @@ A full OS image generated from recipes and configurations.
 
 ---
 
-## Yocto Variables Summerized
+## Yocto Variables Summerized 🫒
 
 ### 1. **Core Variables**
 | Variable | Description |
@@ -432,7 +432,7 @@ A full OS image generated from recipes and configurations.
 | `IMAGE_INSTALL` | List of packages to install in the final image. |
 
 
-# Meta-Qt6-Custom Layer Overview
+# Meta-Qt6-Custom Layer Overview 🫒 
 
 ## Introduction
 This Yocto layer, `meta-Qt6-custom`, is designed to create a custom Linux image with a Qt6-based application. It integrates systemd for service management and is structured to maintain modularity and compatibility.
