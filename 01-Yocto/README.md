@@ -270,6 +270,7 @@ FILES:${PN} += "${bindir}/qt-gpio-app"
 
 ### Explanation of Variables:
 - **SRCREV**: Specifies a fixed commit hash to ensure reproducible builds.
+  Check the latest commit hash (SRCREV) ->`git ls-remote https://github.com/PatrickAtef8/Qt6-App-Yocto.git main`
 - **inherit qt6-cmake systemd**: Inherits Qt6 build system and systemd support.
 - **DEPENDS**: Specifies build-time dependencies.
 - **RDEPENDS**: Specifies runtime dependencies.
