@@ -491,6 +491,9 @@ meta-Qt6-custom/
 - Ensures the application runs in a Wayland environment.
 - Uses `User=weston` to ensure proper access.
 
+### Result
+https://github.com/user-attachments/assets/2f4722b8-8bb5-4348-9afe-6e7e8d1a5aa8
+
 ## Summary
 - This Yocto layer builds a custom Qt6-enabled image.
 - It ensures proper Wayland integration and automatic application startup.
