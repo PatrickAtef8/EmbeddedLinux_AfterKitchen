@@ -199,6 +199,9 @@ cd /home/root
 ## Example Result
 if I need to modify for example button color just do it like this 🕺
 ![result](Result_Example/res.jpeg)
+
+## Qt Creator Integration Demo (Details of configuration and setting kit for rpi will be added later)
+https://github.com/user-attachments/assets/d3cea215-192c-482d-b8de-5d5baff7ab6b
 ## Conclusion
 
 You have now successfully set up the Qt6 SDK, built your Qt application, and deployed it to the Raspberry Pi 3B+ over Ethernet. This approach avoids the need to modify the SD card frequently and allows for a streamlined development process using SSH and SCP for file transfers.
