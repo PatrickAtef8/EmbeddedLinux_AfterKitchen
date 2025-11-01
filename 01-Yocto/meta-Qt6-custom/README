@@ -1,41 +1,38 @@
-This README file contains information on the contents of the meta-Qt6-custom layer.
+# meta-Qt6-custom Layer
 
-Please see the corresponding sections below for details.
+This layer contains custom Qt6 recipe and configuration for Yocto-based embedded Linux system.  
+It is mainly used for Raspberry Pi targets running Qt Quick (QML) applications.
 
-Dependencies
-============
+## Adding the Layer
 
-  URI: <first dependency>
-  branch: <branch name>
+```bash
+bitbake-layers add-layer meta-Qt6-custom
+```
 
-  URI: <second dependency>
-  branch: <branch name>
+## Dependencies
 
-  .
-  .
-  .
+```
+meta-qt6
+poky
+meta-openembedded
+```
 
-Patches
-=======
+## Contents
 
-Please submit any patches against the meta-Qt6-custom layer to the xxxx mailing list (xxxx@zzzz.org)
-and cc: the maintainer:
+```
+conf/              # Layer and distro configuration
+recipes-core/      # Custom image recipe (my-core-image.bb)
+recipes-qt/        # Qt application recipes and service files
+```
 
-Maintainer: XXX YYYYYY <xxx.yyyyyy@zzzzz.com>
+## Usage
 
-Table of Contents
-=================
+```bash
+source oe-init-build-env
+bitbake my-core-image
+```
 
-  I. Adding the meta-Qt6-custom layer to your build
- II. Misc
+## Maintainer
 
-
-I. Adding the meta-Qt6-custom layer to your build
-=================================================
-
-Run 'bitbake-layers add-layer meta-Qt6-custom'
-
-II. Misc
-========
-
---- replace with specific information about the meta-Qt6-custom layer ---
+Patrick Atef  
+📧 patrickatefffa22@gmail.com
